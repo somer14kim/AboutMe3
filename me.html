@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> About Me </title>
+<link href="me.css" rel="stylesheet" type="text/css" />
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src=
+        "https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity=
+"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+        crossorigin="anonymous">
+    </script>
+  <meta charset="utf-8">
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    p{
+        padding: 15px;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    // Slide up displayed paragraphs
+    $(".up-btn").click(function(){
+        $("p").slideUp();
+    });
+    
+    // Slide down hidden paragraphs
+    $(".down-btn").click(function(){
+        $("p").slideDown();
+    });
+});
+</script>
+
+</head>
+<body>
+
+<button type="button" class="up-btn">Slide Up Paragraphs</button> 
+    <button type="button" class="down-btn">Slide Down Paragraphs</button>
+
+ <button id="btn">Click me!</button>
+  
+    <script>
+        $(document).ready(function () {
+            $("#btn").click(function () {
+                alert("Alert: Make your dreams come true.");
+            });
+        });
+    </script>
+	
+	<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Contacts</a></li>
+      <li><a href="#">Pictures</a></li>
+    </ul>
+  </div>
+</nav>
+
+<nav class="navbar navbar-light bg-light">
+  <form class="form-inline">
+    <input class="form-control mr-lg-6" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-6 my-lg-6." type="submit">Search</button>
+  </form>
+</nav>
+
+<img src="ME/seniorpic.jpg" alt="My senior year photo."/>
+
+<h1> Kimberly Stacey</h1>
+
+<h2>Information</h2>
+
+<h3>My Experience</h3>
+
+<div class="row">
+  <div class="col-md-6" style="background-color:gray;">
+  <p>I have some experience in HTML, CSS, Python, and Javascript.</p>
+</div>
+
+<h3>My Hopes</h3>
+
+<div class="col-md-6" style="background-color:purple;">
+<p> I would love to be able to make small websites and to use many web development tools. But more pacifially would like to be able to use github, bootstrap, and jQuery.</p>
+</div>
+
+<h3>Future</h3>
+
+<div class="col-md-6" style="background-color:gray;">
+<p> I would like to in the future make many websites designed to help people with disabilities, so they can navigate the world and the internet better.</p>
+</div>
+</div>
+
+<h3>Hobbies</h3>
+
+ <ul class="list-group">
+  <li class="list-group-item list-group-item-success">Watching Youtube</li>
+  <li class="list-group-item list-group-item-info">Cooking</li>
+</ul> 
+
+</body>
+</html>
